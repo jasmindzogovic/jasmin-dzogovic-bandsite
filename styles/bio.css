@@ -37,9 +37,12 @@
   flex-direction: column;
 }
 .header__logo {
-  color: #FFFFFF;
+  color: #E1E1E1;
 }
 .header a {
+  color: #E1E1E1;
+}
+.header a:hover, .header a :active {
   color: #FFFFFF;
 }
 .header-nav__list {

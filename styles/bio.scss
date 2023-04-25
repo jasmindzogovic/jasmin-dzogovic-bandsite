@@ -40,10 +40,13 @@
     @include flex-center;
     flex-direction: column;
     &__logo {
-        color: $white;
+        color: $mercury;
     }
     & a {
-        color: $white;
+        color: $mercury;
+        &:hover, :active {
+            color: $white;
+        }
     }
     &-nav__list {
         display: flex;
