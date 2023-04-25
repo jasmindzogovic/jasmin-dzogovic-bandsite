@@ -31,6 +31,10 @@
 
 .header {
   background-color: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .header__logo {
   color: #FFFFFF;
@@ -38,21 +42,31 @@
 .header a {
   color: #FFFFFF;
 }
+.header-nav__list {
+  display: flex;
+}
+
+.hero {
+  background: no-repeat center url(../assets/Images/hero-bio.jpg);
+  background-size: cover;
+}
+.hero__heading {
+  color: #FFFFFF;
+}
 
 .main {
   background-color: #FFFFFF;
   color: #000000;
 }
+.main__container-img {
+  width: 100%;
+}
 
 .photo-gallery {
   background-color: #E1E1E1;
 }
-
-.hero {
-  background: no-repeat center url(../assets/Images/hero-bio.jpg);
-}
-.hero__heading {
-  color: #FFFFFF;
+.photo-gallery__image {
+  width: 100%;
 }
 
 .footer {

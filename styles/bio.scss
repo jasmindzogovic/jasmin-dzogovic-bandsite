@@ -37,31 +37,39 @@
 
 .header {
     background-color: $bandsite-black;
+    @include flex-center;
+    flex-direction: column;
     &__logo {
         color: $white;
     }
     & a {
         color: $white;
     }
+    &-nav__list {
+        display: flex;
+    }
 }
 
-
+.hero {
+    background: no-repeat center url(../assets/Images/hero-bio.jpg);
+    background-size: cover;
+    &__heading {
+        color: $white;
+    }
+}
 
 .main {
     background-color: $white;
     color: $bandsite-darkblack;
+    &__container-img {
+        width: 100%;
+    }
 }
 
 .photo-gallery {
     background-color: $mercury;
-}
-
-
-
-.hero {
-    background: no-repeat center url(../assets/Images/hero-bio.jpg);
-    &__heading {
-        color: $white;
+    &__image {
+        width: 100%;
     }
 }
 
