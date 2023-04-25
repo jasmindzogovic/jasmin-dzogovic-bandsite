@@ -24,15 +24,17 @@
         font-style: normal;
         font-weight: $bold-fontweight;
     }    
+
+    li {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
 }
 
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 
 
