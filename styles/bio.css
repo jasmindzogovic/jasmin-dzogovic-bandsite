@@ -23,6 +23,14 @@
   font-weight: 700;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .hero {
   background: no-repeat center url(../assets/Images/hero-bio.jpg);
 }
