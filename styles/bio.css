@@ -29,10 +29,36 @@
   text-decoration: none;
 }
 
+.header {
+  background-color: #323232;
+}
+.header__logo {
+  color: #FFFFFF;
+}
+.header a {
+  color: #FFFFFF;
+}
+
+.main {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.photo-gallery {
+  background-color: #E1E1E1;
+}
+
 .hero {
   background: no-repeat center url(../assets/Images/hero-bio.jpg);
+}
+.hero__heading {
+  color: #FFFFFF;
 }
 
 .footer {
   background-color: #323232;
+  color: #FFFFFF;
+}
+.footer a {
+  color: #FFFFFF;
 }/*# sourceMappingURL=bio.css.map */

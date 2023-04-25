@@ -35,15 +35,40 @@
     
 }
 
+.header {
+    background-color: $bandsite-black;
+    &__logo {
+        color: $white;
+    }
+    & a {
+        color: $white;
+    }
+}
 
 
+
+.main {
+    background-color: $white;
+    color: $bandsite-darkblack;
+}
+
+.photo-gallery {
+    background-color: $mercury;
+}
 
 
 
 .hero {
     background: no-repeat center url(../assets/Images/hero-bio.jpg);
+    &__heading {
+        color: $white;
+    }
 }
 
 .footer {
     background-color: $bandsite-black;
+    color: $white;
+    & a {
+        color: $white;
+    }
 }
