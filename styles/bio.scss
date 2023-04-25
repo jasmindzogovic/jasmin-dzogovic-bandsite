@@ -36,9 +36,9 @@
 }
 
 .header {
-    background-color: $bandsite-black;
     @include flex-center;
     flex-direction: column;
+    background-color: $bandsite-black;
     &__logo {
         color: $mercury;
     }
