@@ -31,6 +31,9 @@
 
 
 .hero {
-    background: url(../assets/Images/hero-bio.jpg);
+    background: no-repeat center url(../assets/Images/hero-bio.jpg);
 }
 
+.footer {
+    background-color: $bandsite-black;
+}
