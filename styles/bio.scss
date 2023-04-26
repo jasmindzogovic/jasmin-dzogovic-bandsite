@@ -24,21 +24,17 @@
         font-style: normal;
         font-weight: $bold-fontweight;
     }   
-    
     li {
         list-style-type: none;
     }
-    
     a {
         text-decoration: none;
     }
-
     h1 {
         font-size: 1.5rem;
         font-weight: $demi-fontweight;
         line-height: 2rem;
     }
-
     h4 {
         font-size: 0.857rem;
         font-weight: $demi-fontweight;
@@ -63,13 +59,13 @@
             font-weight: $demi-fontweight;
         }
     }
-    
     &-nav__list {
         display: flex;
         padding-bottom: 1rem;
     }
     &-nav__item {
         font-size: 0.875rem;
+        padding: 0 4rem;
     }
 }
 
@@ -98,6 +94,7 @@
 }
 
 .main__container {
+
     &-subheading {
         padding: 0 1rem;
         text-align: justify;
