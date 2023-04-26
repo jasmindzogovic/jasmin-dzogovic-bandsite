@@ -28,6 +28,16 @@
 * a {
   text-decoration: none;
 }
+* h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+* h4 {
+  font-size: 0.857rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+}
 
 .header {
   display: flex;
@@ -35,26 +45,37 @@
   align-items: center;
   flex-direction: column;
   background-color: #323232;
+  padding: 0 1rem;
 }
 .header__logo {
   color: #FFFFFF;
+  padding-top: 0.875rem;
 }
 .header a {
   color: #E1E1E1;
 }
 .header a:hover, .header a :active {
   color: #FFFFFF;
+  font-weight: 600;
 }
 .header-nav__list {
   display: flex;
+  padding-bottom: 1rem;
+}
+.header-nav__item {
+  font-size: 0.875rem;
 }
 
 .hero {
   background: no-repeat center url(../assets/Images/hero-bio.jpg);
   background-size: cover;
 }
+.hero--overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .hero__heading {
   color: #FFFFFF;
+  padding: 5rem 1rem;
 }
 
 .main {
@@ -63,19 +84,78 @@
 }
 .main__container-img {
   width: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+.main__heading {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.main__container-subheading {
+  padding: 1rem;
+  text-align: justify;
+}
+.main__container-singer {
+  padding: 0 1rem;
+}
+.main__container-band {
+  padding: 1rem;
+}
+.main__container-about {
+  padding: 0 1rem 1rem;
+}
+.main__container-first-paragraph {
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+}
+.main__container-second-paragraph {
+  font-size: 0.875rem;
 }
 
 .photo-gallery {
   background-color: #E1E1E1;
 }
+.photo-gallery__heading {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+.photo-gallery__images-container {
+  padding: 0 1rem 1rem;
+}
 .photo-gallery__image {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .footer {
   background-color: #323232;
   color: #FFFFFF;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  padding: 1rem;
+}
+.footer__heading {
+  padding-bottom: 1rem;
+}
+.footer-social__container {
+  padding-bottom: 1rem;
+}
+.footer-contact {
+  padding-bottom: 2rem;
+}
+.footer-contact__paragraph--bold {
+  font-weight: 600;
+}
+.footer-contact__container {
+  padding-bottom: 1rem;
+}
+.footer .second {
+  padding-bottom: 1rem;
+}
+.footer .email {
+  padding-top: 1rem;
 }
 .footer a {
   color: #FFFFFF;
+}
+.footer__paragraph {
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=bio.css.map */
