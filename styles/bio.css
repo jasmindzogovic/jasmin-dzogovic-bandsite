@@ -1,3 +1,4 @@
+/*Adding global styles*/
 * {
   padding: 0;
   margin: 0;
@@ -39,6 +40,7 @@
   line-height: 1.375rem;
 }
 
+/*Styling header using flexbox, adding padding to elements, adding hover and active effects*/
 .header {
   display: flex;
   justify-content: center;
@@ -70,6 +72,7 @@
   font-size: 0.875rem;
 }
 
+/*Styling hero section, and adjusting the background image with a darker overlay*/
 .hero {
   background: no-repeat center url(../assets/Images/hero-bio.jpg);
   background-size: cover;
@@ -82,18 +85,20 @@
   padding: 5rem 1rem;
 }
 
+/*Styling main section background and font color, adjusting image and header padding*/
 .main {
   background-color: #FFFFFF;
   color: #000000;
-}
-.main__container-img {
-  width: 100%;
-  padding: 0 1rem 1rem 1rem;
 }
 .main__heading {
   padding: 1.5rem 1rem 1rem 1rem;
 }
 
+/*Adding padding to main container elements, adjusting image*/
+.main__container-img {
+  width: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
 .main__container-subheading {
   padding: 0 1rem;
   text-align: justify;
@@ -115,6 +120,7 @@
   font-size: 0.875rem;
 }
 
+/*Setting background color, adding padding to elements, and adjusting images of photo gallery*/
 .photo-gallery {
   background-color: #E1E1E1;
 }
@@ -129,6 +135,7 @@
   margin-bottom: 1rem;
 }
 
+/*Stryling footer, adding background color, font color, font size, as well as padding and margin for elements*/
 .footer {
   background-color: #323232;
   color: #FFFFFF;

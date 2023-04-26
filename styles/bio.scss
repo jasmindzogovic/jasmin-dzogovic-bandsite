@@ -1,6 +1,8 @@
 @use "./partials/mixin" as *;
 @use "./partials/variables" as *;
 
+/*Adding global styles*/
+
 * {
     padding: 0;
     margin: 0;
@@ -43,6 +45,8 @@
     
 }
 
+/*Styling header using flexbox, adding padding to elements, adding hover and active effects*/
+
 .header {
     @include flex-center;
     flex-direction: column;
@@ -72,6 +76,8 @@
     }
 }
 
+/*Styling hero section, and adjusting the background image with a darker overlay*/
+
 .hero {
     background: no-repeat center url(../assets/Images/hero-bio.jpg);
     background-size: cover;
@@ -84,19 +90,23 @@
     }
 }
 
+/*Styling main section background and font color, adjusting image and header padding*/
+
 .main {
     background-color: $white;
     color: $bandsite-darkblack;
-    &__container-img {
-        width: 100%;
-        padding: 0 1rem 1rem 1rem;
-    }
     &__heading {
         padding: 1.5rem 1rem 1rem 1rem;
     }
 }
 
+/*Adding padding to main container elements, adjusting image*/
+
 .main__container {
+    &-img {
+        width: 100%;
+        padding: 0 1rem 1rem 1rem;
+    }
     &-subheading {
         padding: 0 1rem;
         text-align: justify;
@@ -119,6 +129,8 @@
     }
 }
 
+/*Setting background color, adding padding to elements, and adjusting images of photo gallery*/
+
 .photo-gallery {
     background-color: $mercury;
     &__heading {
@@ -132,6 +144,8 @@
         margin-bottom: 1rem;
     }
 }
+
+/*Stryling footer, adding background color, font color, font size, as well as padding and margin for elements*/
 
 .footer {
     background-color: $bandsite-black;
