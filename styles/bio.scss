@@ -61,8 +61,10 @@
         padding-bottom: 1rem;
     & a {
         color: $mercury;
+        padding: 0.9rem 4rem;
     &:hover, :active {
             color: $white;
+            border-bottom: 3px solid $white;
         }
     &:active {
             font-weight: $bold-fontweight;
