@@ -99,7 +99,7 @@
 
 .main__container {
     &-subheading {
-        padding: 1rem;
+        padding: 0 1rem;
         text-align: justify;
     }
     &-singer {
@@ -145,6 +145,9 @@
     }
     &-social__container {
         padding-bottom: 1rem;
+    }
+    &-social__icon {
+        margin-right: 1.5rem;
     }
     &-contact {
         padding-bottom: 2rem;
