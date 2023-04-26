@@ -62,11 +62,11 @@
     & a {
         padding: 0 4rem 0.9rem 4rem;
         color: $mercury;
-        &:hover, :active {
+    &:hover, :active {
             color: $white;
             border-bottom: 3px solid $white;
         }
-        &:active {
+    &:active {
             font-weight: $bold-fontweight;
         }
     }
@@ -96,7 +96,7 @@
     background-color: $white;
     color: $bandsite-darkblack;
     &__heading {
-        padding: 1.5rem 1rem 1rem 1rem;
+        @include mobile-header-padding;
     }
 }
 
@@ -134,7 +134,7 @@
 .photo-gallery {
     background-color: $mercury;
     &__heading {
-        padding: 1.5rem 1rem 1rem 1rem;
+        @include mobile-header-padding;
     }
     &__images-container {
         padding: 0 1rem 1rem;
