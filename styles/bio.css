@@ -4,6 +4,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: avenir;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
 }
 @font-face {
   font-family: "avenir";
