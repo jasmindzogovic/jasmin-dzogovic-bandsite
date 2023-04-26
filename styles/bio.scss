@@ -52,20 +52,23 @@
         color: $white;
         padding-top: 0.875rem;
     }
-    & a {
-        color: $mercury;
-        &:hover, :active {
-            color: $white;
-            font-weight: $demi-fontweight;
-        }
-    }
     &-nav__list {
         display: flex;
         padding-bottom: 1rem;
+    & a {
+        padding: 0 4rem 0.9rem 4rem;
+        color: $mercury;
+        &:hover, :active {
+            color: $white;
+            border-bottom: 3px solid $white;
+        }
+        &:active {
+            font-weight: $bold-fontweight;
+        }
+    }
     }
     &-nav__item {
         font-size: 0.875rem;
-        padding: 0 4rem;
     }
 }
 
@@ -94,7 +97,6 @@
 }
 
 .main__container {
-
     &-subheading {
         padding: 0 1rem;
         text-align: justify;
