@@ -60,11 +60,9 @@
         display: flex;
         padding-bottom: 1rem;
     & a {
-        padding: 0 4rem 0.9rem 4rem;
         color: $mercury;
     &:hover, :active {
             color: $white;
-            border-bottom: 3px solid $white;
         }
     &:active {
             font-weight: $bold-fontweight;

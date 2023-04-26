@@ -58,12 +58,10 @@
   padding-bottom: 1rem;
 }
 .header-nav__list a {
-  padding: 0 4rem 0.9rem 4rem;
   color: #E1E1E1;
 }
 .header-nav__list a:hover, .header-nav__list a :active {
   color: #FFFFFF;
-  border-bottom: 3px solid #FFFFFF;
 }
 .header-nav__list a:active {
   font-weight: 700;
