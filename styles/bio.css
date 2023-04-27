@@ -207,8 +207,8 @@
   }
   .photo-gallery .photo-gallery__images-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .photo-gallery .photo-gallery__image {
     width: 30%;

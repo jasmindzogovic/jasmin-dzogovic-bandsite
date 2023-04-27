@@ -53,8 +53,7 @@
 /*Styling header using flexbox, adding padding to elements, adding hover and active effects*/
 
 .header {
-    @include flex-center;
-    flex-direction: column;
+    @include flex-center(column);
     background-color: $bandsite-black;
     padding: 0 1rem;
     &__logo {
@@ -215,9 +214,8 @@
                 padding-left: 3rem;
             }
             &__images-container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;            
+                @include flex-justify; 
+                flex-wrap: wrap;     
             }
             &__image {
                 width: 30%;
@@ -277,8 +275,7 @@
                 align-items: baseline;
             }
             &-contact {
-                display: flex;
-                justify-content: center;
+                @include flex-justify;
                 &__container {
                     margin-right: 3rem;
                 }
