@@ -284,11 +284,14 @@
                 }
             }
         }
+        .footer__logo-container {
+            position: relative;
+        }
         &__logo {
             font-size: 1.5rem;
             position: absolute;
-            top: 135.5rem;
-            left: 38rem;
+            bottom: 12rem;
+            left: 37rem;
         }
         &__paragraph {
             padding-left: 1.5rem;

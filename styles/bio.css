@@ -270,11 +270,14 @@
   .footer .footer-contact__container {
     margin-right: 3rem;
   }
+  .footer .footer__logo-container {
+    position: relative;
+  }
   .footer__logo {
     font-size: 1.5rem;
     position: absolute;
-    top: 135.5rem;
-    left: 38rem;
+    bottom: 12rem;
+    left: 37rem;
   }
   .footer__paragraph {
     padding-left: 1.5rem;
