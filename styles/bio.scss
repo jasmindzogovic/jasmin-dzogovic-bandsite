@@ -80,9 +80,21 @@
         font-size: 0.875rem;
     }
     @include tablet {
-        .header {
-            display: flex;
-            flex-direction: row;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 2.25rem;
+        .header__logo {
+            font-size: 1.5rem;
+            margin-right: 3rem;
+            padding: 0;
+        }
+        a {
+            padding: 0;
+            margin-right: 3rem;
+        }
+        .header-nav__list {
+            padding: 0;
         }
     }
 }
