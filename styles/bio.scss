@@ -115,6 +115,11 @@
             padding: 13rem 2.25rem;
         }
     }
+    @include desktop {
+        .hero__heading {
+            padding: 20rem 8rem;
+        }
+    }
 }
 
 /*Styling main section background and font color, adjusting image and header padding--Making responsive*/
@@ -128,6 +133,11 @@
     @include tablet {
         .main__heading {
             padding: 3rem 2.25rem 2rem;
+        }
+    }
+    @include desktop {
+        .main__heading {
+            padding-left: 8rem;
         }
     }
 }
@@ -192,6 +202,25 @@
             }
         }
     }
+    @include desktop {
+        .main__container {
+            &-img {
+            width: 70%;       
+            }
+            &-subheading {
+                width: 70%;
+            }
+            &-singer {
+                padding-left: 13rem;
+            }
+            &-band {
+                padding-left: 13rem;
+            }
+            &-about {
+                width: 70%;
+            }
+        }
+    }
 }
 
 /*Setting background color, adding padding to elements, and adjusting images of photo gallery*/
@@ -220,6 +249,16 @@
             &__image {
                 width: 30%;
                 margin: 0.6rem;
+            }
+        }
+    }
+    @include desktop {
+        .photo-gallery {
+            &__heading {
+                padding-left: 8rem;
+            }
+            &__image {
+                width: 26%;
             }
         }
     }
@@ -292,6 +331,21 @@
         }
         &__paragraph {
             padding-left: 1.5rem;
+        }
+    }
+    @include desktop {
+        .footer {
+            &-social__container {
+                padding-left: 6rem;
+            }
+            &-contact {
+                display: flex;
+                justify-content: flex-start;
+                padding-left: 8rem;
+            }
+            &__paragraph {
+                padding-left: 8rem;
+            }
         }
     }
 }
