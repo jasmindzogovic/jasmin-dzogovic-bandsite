@@ -1,7 +1,7 @@
 @use "./partials/mixin" as *;
 @use "./partials/variables" as *;
 
-/*Adding global styles*/
+/*Adding global styles--Making responsive*/
 
 * {
     padding: 0;
@@ -50,7 +50,7 @@
     }
 }
 
-/*Styling header using flexbox, adding padding to elements, adding hover and active effects*/
+/*Styling header using flexbox, adding padding to elements, adding hover and active effects--Making responsive*/
 
 .header {
     @include flex-center(column);
@@ -98,7 +98,7 @@
     }
 }
 
-/*Styling hero section, and adjusting the background image with a darker overlay*/
+/*Styling hero section, and adjusting the background image with a darker overlay--Making responsive*/
 
 .hero {
     background: no-repeat center url(../assets/Images/hero-bio.jpg);
@@ -117,7 +117,7 @@
     }
 }
 
-/*Styling main section background and font color, adjusting image and header padding*/
+/*Styling main section background and font color, adjusting image and header padding--Making responsive*/
 
 .main {
     background-color: $white;
@@ -132,7 +132,7 @@
     }
 }
 
-/*Adding padding to main container elements, adjusting image*/
+/*Adding padding to main container elements, adjusting image--Making responsive*/
 
 .main__container {
     &-img {
@@ -164,14 +164,14 @@
             &-img {
             width: 80%;
             display: block;
-            margin: 0 auto;
+            @include block-center;
             padding-bottom: 2.25rem;
             }
             &-subheading {
             font-size: 1.3rem;
             padding-bottom: 1rem;
             width: 80%;
-            margin: 0 auto;
+            @include block-center;
             }
             &-singer {
             font-size: 1rem;
@@ -183,7 +183,7 @@
             }
             &-about {
             display: flex;
-            margin: 0 auto;
+            @include block-center;
             width: 80%;
             }
             &-paragraph {

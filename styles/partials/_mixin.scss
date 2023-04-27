@@ -27,3 +27,7 @@
 @mixin mobile-header-padding {
     padding: 1.5rem 1rem 1rem 1rem;
 }
+
+@mixin block-center {
+    margin: 0 auto;
+}

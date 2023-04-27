@@ -1,4 +1,4 @@
-/*Adding global styles*/
+/*Adding global styles--Making responsive*/
 * {
   padding: 0;
   margin: 0;
@@ -46,7 +46,7 @@
   }
 }
 
-/*Styling header using flexbox, adding padding to elements, adding hover and active effects*/
+/*Styling header using flexbox, adding padding to elements, adding hover and active effects--Making responsive*/
 .header {
   display: flex;
   justify-content: center;
@@ -98,7 +98,7 @@
   }
 }
 
-/*Styling hero section, and adjusting the background image with a darker overlay*/
+/*Styling hero section, and adjusting the background image with a darker overlay--Making responsive*/
 .hero {
   background: no-repeat center url(../assets/Images/hero-bio.jpg);
   background-size: cover;
@@ -116,7 +116,7 @@
   }
 }
 
-/*Styling main section background and font color, adjusting image and header padding*/
+/*Styling main section background and font color, adjusting image and header padding--Making responsive*/
 .main {
   background-color: #FFFFFF;
   color: #000000;
@@ -130,7 +130,7 @@
   }
 }
 
-/*Adding padding to main container elements, adjusting image*/
+/*Adding padding to main container elements, adjusting image--Making responsive*/
 .main__container-img {
   width: 100%;
   padding: 0 1rem 1rem 1rem;
