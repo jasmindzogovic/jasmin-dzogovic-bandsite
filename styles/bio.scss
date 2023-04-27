@@ -55,45 +55,56 @@
 .header {
     @include flex-center(column);
     background-color: $bandsite-black;
-    padding: 0 1rem;
     &__logo {
-        color: $white;
         padding-top: 0.875rem;
-    }
-    &-nav__list {
-        display: flex;
-        padding-bottom: 1rem;
-    & a {
-        color: $mercury;
-        padding: 0.9rem 4rem;
-    &:hover, :active {
-            color: $white;
-            border-bottom: 3px solid $white;
-        }
-    &:active {
-            font-weight: map-get($map: $font-weights, $key: bold);
-        }
-    }
-    }
-    &-nav__item {
-        font-size: 0.875rem;
     }
     @include tablet {
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        padding: 0 2.25rem;
+        padding: 0.6rem 0 0 2.25rem;
         .header__logo {
             font-size: 1.5rem;
             margin-right: 3rem;
-            padding: 0;
+            padding: 0 0 0.5rem 0;
         }
-        a {
-            padding: 0;
-            margin-right: 3rem;
+    @include desktop {
+        padding-left: 5rem;
+    }    
+    }
+}
+
+.header-nav {
+    width: 100%;
+    &__list {
+        display: flex;
+    }
+    &__item-container {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        padding: 0.5rem 0;
+        font-size: 0.875rem;
+        &:active {
+            font-weight: map-get($map: $font-weights, $key: bold);
         }
-        .header-nav__list {
-            padding: 0;
+        &:hover, &:active {
+            border-bottom: 3px solid $white;
+            color: $white;
+        }
+        &--featured {
+            border-bottom: 3px solid $white;
+        }
+    }
+    & a {
+        color: $mercury;
+    }
+    @include tablet {
+        width: auto;
+
+        .header-nav__item-container {
+            margin-right: 2rem;
+            padding-bottom: 1rem;
         }
     }
 }
@@ -310,6 +321,9 @@
     }
     @include tablet {
         .footer {
+            &__heading {
+                margin-right: 1.5rem;
+            }
             &-social__container{
                 display: flex;
                 align-items: baseline;

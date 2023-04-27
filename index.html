@@ -10,13 +10,17 @@
 <body>
 
     <header class="header">
-        <a href="./index.html"> <h1 class="header__logo">BANDSITE</h1> </a>
-        <div class="header-nav">
-            <ul class="header-nav__list">
-                <li class="header-nav__item"> <a href="./index.html"> Biography </a></li>
-                <li class="header-nav__item"> <a href="#"> Shows </a></li>
-            </ul>
+        <div class="header__logo-container">
+            <a href="./index.html"> 
+                <img src="./assets/logo/Logo-bandsite.svg" class="header__logo" alt="header-logo">
+             </a>
         </div>
+        <nav class="header-nav">
+            <ul class="header-nav__list">
+                <div class="header-nav__item-container header-nav__item-container--featured"> <li class="header-nav__item"> <a href="./index.html"> Biography </a></li> </div>
+                <div class="header-nav__item-container"> <li class="header-nav__item"> <a href="#"> Shows </a></li> </div>
+            </ul>
+        </nav>
     </header>
 
     <section class="hero">
@@ -105,7 +109,7 @@
             </div>
         </div>
         <div class="footer__logo-container">
-            <a href="./index.html"> <h1 class="footer__logo">BANDSITE</h1> </a>
+            <a href="./index.html"> <img src="./assets/logo/Logo-bandsite.svg" class="footer__logo" alt="footer__logo"> </a>
         </div>
         <p class="footer__paragraph">Copyright The Bees Knees © 2021 All Rights Reserved</p>
     </footer>
