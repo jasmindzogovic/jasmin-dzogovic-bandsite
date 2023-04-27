@@ -6,8 +6,10 @@ $white: #FFFFFF;
 $bandsite-darkblack: #000000;
 $mercury: #E1E1E1;
 $alabaster: #FAFAFA;
-$regular-fontweight: 400;
-$demi-fontweight: 600;
-$bold-fontweight: 700;
+$font-weights: (
+    "regular": 400,
+    "demi": 600,
+    "bold": 700
+);
 
 
