@@ -39,6 +39,12 @@
   font-weight: 600;
   line-height: 1.375rem;
 }
+@media (min-width: 768px) {
+  * h1 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+}
 
 /*Styling header using flexbox, adding padding to elements, adding hover and active effects*/
 .header {
@@ -71,6 +77,12 @@
 .header-nav__item {
   font-size: 0.875rem;
 }
+@media (min-width: 768px) {
+  .header .header {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 /*Styling hero section, and adjusting the background image with a darker overlay*/
 .hero {
@@ -84,6 +96,11 @@
   color: #FFFFFF;
   padding: 5rem 1rem;
 }
+@media (min-width: 768px) {
+  .hero .hero__heading {
+    padding: 13rem 2.25rem;
+  }
+}
 
 /*Styling main section background and font color, adjusting image and header padding*/
 .main {
@@ -92,6 +109,11 @@
 }
 .main__heading {
   padding: 1.5rem 1rem 1rem 1rem;
+}
+@media (min-width: 768px) {
+  .main .main__heading {
+    padding: 3rem 2.25rem 2rem;
+  }
 }
 
 /*Adding padding to main container elements, adjusting image*/
@@ -112,12 +134,43 @@
 .main__container-about {
   padding: 0 1rem 1rem;
 }
-.main__container-first-paragraph {
+.main__container .first {
   padding-bottom: 1rem;
   font-size: 0.875rem;
 }
-.main__container-second-paragraph {
+.main__container .second {
   font-size: 0.875rem;
+}
+@media (min-width: 768px) {
+  .main__container .main__container-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2.25rem;
+  }
+  .main__container .main__container-subheading {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main__container .main__container-singer {
+    font-size: 1rem;
+    padding-left: 6rem;
+  }
+  .main__container .main__container-band {
+    font-size: 1.5rem;
+    padding: 3rem 0 1.5rem 6rem;
+  }
+  .main__container .main__container-about {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .main__container .main__container-paragraph {
+    padding-right: 1rem;
+    line-height: 1.3rem;
+  }
 }
 
 /*Setting background color, adding padding to elements, and adjusting images of photo gallery*/
@@ -133,6 +186,20 @@
 .photo-gallery__image {
   width: 100%;
   margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .photo-gallery .photo-gallery__heading {
+    padding-left: 3rem;
+  }
+  .photo-gallery .photo-gallery__images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .photo-gallery .photo-gallery__image {
+    width: 30%;
+    margin: 0.6rem;
+  }
 }
 
 /*Stryling footer, adding background color, font color, font size, as well as padding and margin for elements*/
@@ -172,4 +239,30 @@
 }
 .footer__paragraph {
   padding-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .footer .footer__heading {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .footer .footer-social__container {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer .footer-contact {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer-contact__container {
+    margin-right: 3rem;
+  }
+  .footer__logo {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 135.5rem;
+    left: 38rem;
+  }
+  .footer__paragraph {
+    padding-left: 1.5rem;
+  }
 }/*# sourceMappingURL=bio.css.map */
