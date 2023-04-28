@@ -46,7 +46,7 @@
   }
 }
 
-/*Styling header using flexbox, adding padding to elements, adding hover and active effects--Making responsive*/
+/*Styling header using flexbox, adding padding to elements, adding hover and active effects--Making responsive for global use*/
 .header {
   display: flex;
   justify-content: center;
@@ -118,7 +118,7 @@
   background-size: cover;
 }
 .hero--overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(50, 50, 50, 0.5);
 }
 .hero__heading {
   color: #FFFFFF;
@@ -294,10 +294,10 @@
 .footer-contact__paragraph--bold {
   font-weight: 600;
 }
-.footer-contact__container {
+.footer-contact__paragraph--bold-second {
   padding-bottom: 1rem;
 }
-.footer .second {
+.footer-contact__container {
   padding-bottom: 1rem;
 }
 .footer .email {
