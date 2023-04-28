@@ -1,3 +1,51 @@
+/*Adding global styles--Making responsive*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: avenir;
+}
+@font-face {
+  font-family: "avenir";
+  src: url(../assets/Font/AvenirNextLTPro-Regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "avenir";
+  src: url(../assets/Font/AvenirNextLTPro-Demi.otf);
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "avenir";
+  src: url(../assets/Font/AvenirNextLTPro-Bold.otf);
+  font-style: normal;
+  font-weight: 700;
+}
+* li {
+  list-style-type: none;
+}
+* a {
+  text-decoration: none;
+}
+* h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+* h4 {
+  font-size: 0.857rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+}
+@media (min-width: 768px) {
+  * h1 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+}
+
 /*Styling header using flexbox, adding padding to elements, adding hover and active effects--Making responsive for global use*/
 .header {
   display: flex;
