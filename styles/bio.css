@@ -64,6 +64,90 @@
   }
 }
 
+/*Stryling footer, adding background color, font color, font size, as well as padding and margin for elements*/
+.footer {
+  background-color: #323232;
+  color: #FFFFFF;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  padding: 1rem;
+}
+.footer__heading {
+  padding-bottom: 1rem;
+}
+.footer-social__container {
+  padding-bottom: 1rem;
+}
+.footer-social__icon {
+  margin-right: 1.5rem;
+}
+.footer-contact {
+  padding-bottom: 2rem;
+}
+.footer-contact__paragraph--bold {
+  font-weight: 600;
+}
+.footer-contact__paragraph--bold-second {
+  padding-bottom: 1rem;
+}
+.footer-contact__container {
+  padding-bottom: 1rem;
+}
+.footer .email {
+  padding-top: 1rem;
+}
+.footer a {
+  color: #FFFFFF;
+}
+.footer__paragraph {
+  padding-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .footer .footer__heading {
+    margin-right: 1.5rem;
+  }
+  .footer .footer-social__container {
+    display: flex;
+    align-items: baseline;
+    padding: 0 1.5rem;
+  }
+  .footer .footer-contact {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer-contact__container {
+    margin-right: 3rem;
+  }
+  .footer .footer__logo-container {
+    position: relative;
+  }
+  .footer__logo {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 12rem;
+    left: 80%;
+  }
+  .footer__paragraph {
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .footer .footer__heading {
+    margin-right: 1.5rem;
+  }
+  .footer .footer-social__container {
+    padding-left: 8rem;
+  }
+  .footer .footer-contact {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8rem;
+  }
+  .footer .footer__paragraph {
+    padding-left: 8rem;
+  }
+}
+
 /*Adding global styles--Making responsive*/
 * {
   padding: 0;
