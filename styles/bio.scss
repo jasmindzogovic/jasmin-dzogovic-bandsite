@@ -56,7 +56,10 @@
     &-subheading {
         @include flex-justify;
         text-align: start;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+    &-singer {
+        padding-bottom: 1rem;
     }
     &-band {
         padding-bottom: 0.875rem;
@@ -69,9 +72,9 @@
         padding-bottom: 1rem;
     }
     @include tablet {
+        padding: 2.25rem 5rem;
         .main__container {
             &-img {
-            width: 80%;
             display: block;
             margin: 0 auto;
             padding-bottom: 2.25rem;
@@ -79,44 +82,30 @@
             &-subheading {
             font-size: 1.3rem;
             padding-bottom: 1rem;
-            width: 90%;
-            }
-            &-statement {
-            padding-left: 6rem;
+            justify-content: flex-start;
             }
             &-singer {
             font-size: 1rem;
             }
-            &-about {
-            padding-left: 6rem;
-            }
             &-band {
             font-size: 1.5rem;
-            padding: 3rem 0;
+            padding: 2.25rem 0;
             }
             &-story {
-            @include flex-justify;
-            width: 90%;
+            display: flex;
+            justify-content: flex-start;
             }
             &-paragraph {
-            padding-right: 1.5rem;
             line-height: 1.3rem;
             }
         }
+        .first {
+            padding-right: 1.5rem;
+            }
     }
     @include desktop {
         .main__container {
-            &-img {
-            width: 70%;       
-            }
-            &-statement {
-                width: 80%;
-                padding-left: 13rem;
-            }
-            &-about {
-                width: 80%;
-                margin: 0 auto;
-            }
+            padding: 2.25rem 5rem;
             &-paragraph {
                 font-size: 1rem;
                 line-height: 1.5rem;
