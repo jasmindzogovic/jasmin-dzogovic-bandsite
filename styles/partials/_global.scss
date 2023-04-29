@@ -115,7 +115,9 @@
     color: $white;
     font-size: .8125rem;
     line-height: 1.125rem;
-    padding: 1rem;
+    &__container {
+        padding: 1rem;
+    }
     &__heading {
         padding-bottom: 1rem;
     }
@@ -144,21 +146,21 @@
     & a {
         color: $white;
     }
-    &__paragraph {
-        padding-bottom: 1rem;
-    }
     @include tablet {
         .footer {
+            &__container {
+                padding: 2rem;
+            }
             &__heading {
                 margin-right: 1.5rem;
             }
             &-social__container{
                 display: flex;
                 align-items: baseline;
-                padding: 0 1.5rem
             }
             &-contact {
-                @include flex-justify;
+                display: flex;
+                justify-content: space-around;
                 &__container {
                     margin-right: 3rem;
                 }
@@ -170,28 +172,24 @@
         &__logo {
             font-size: 1.5rem;
             position: absolute;
-            bottom: 12rem;
+            bottom: 13.5rem;
             left: 80%;
-        }
-        &__paragraph {
-            padding-left: 1.5rem;
         }
     }
     @include desktop {
         .footer {
+            &__container {
+                padding: 5rem 12rem;
+            }
             &__heading {
                 margin-right: 1.5rem;
-            }
-            &-social__container {
-                padding-left: 8rem;
             }
             &-contact {
                 display: flex;
                 justify-content: flex-start;
-                padding-left: 8rem;
             }
-            &__paragraph {
-                padding-left: 8rem;
+            &__logo {
+                left: 87%;
             }
         }
     }

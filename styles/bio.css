@@ -118,6 +118,8 @@
   color: #FFFFFF;
   font-size: 0.8125rem;
   line-height: 1.125rem;
+}
+.footer__container {
   padding: 1rem;
 }
 .footer__heading {
@@ -147,21 +149,20 @@
 .footer a {
   color: #FFFFFF;
 }
-.footer__paragraph {
-  padding-bottom: 1rem;
-}
 @media (min-width: 768px) {
+  .footer .footer__container {
+    padding: 2rem;
+  }
   .footer .footer__heading {
     margin-right: 1.5rem;
   }
   .footer .footer-social__container {
     display: flex;
     align-items: baseline;
-    padding: 0 1.5rem;
   }
   .footer .footer-contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
   .footer .footer-contact__container {
     margin-right: 3rem;
@@ -172,27 +173,23 @@
   .footer__logo {
     font-size: 1.5rem;
     position: absolute;
-    bottom: 12rem;
+    bottom: 13.5rem;
     left: 80%;
-  }
-  .footer__paragraph {
-    padding-left: 1.5rem;
   }
 }
 @media (min-width: 1280px) {
+  .footer .footer__container {
+    padding: 5rem 12rem;
+  }
   .footer .footer__heading {
     margin-right: 1.5rem;
-  }
-  .footer .footer-social__container {
-    padding-left: 8rem;
   }
   .footer .footer-contact {
     display: flex;
     justify-content: flex-start;
-    padding-left: 8rem;
   }
-  .footer .footer__paragraph {
-    padding-left: 8rem;
+  .footer .footer__logo {
+    left: 87%;
   }
 }
 
@@ -239,12 +236,11 @@
 }
 
 /*Adding padding to main container elements, adjusting image--Making responsive*/
+.main__container {
+  padding: 1rem;
+}
 .main__container-img {
   width: 100%;
-  padding: 0 1rem 1rem 1rem;
-}
-.main__container-statement {
-  padding: 0 1rem;
 }
 .main__container-subheading {
   display: flex;
@@ -254,9 +250,6 @@
 }
 .main__container-band {
   padding-bottom: 0.875rem;
-}
-.main__container-about {
-  padding: 1rem 1rem;
 }
 .main__container-paragraph {
   font-size: 0.875rem;
@@ -322,19 +315,19 @@
 .photo-gallery {
   background-color: #E1E1E1;
 }
-.photo-gallery__heading {
-  padding: 1.5rem 1rem 1rem 1rem;
+.photo-gallery__container {
+  padding: 1rem;
 }
-.photo-gallery__images-container {
-  padding: 0 1rem 1rem;
+.photo-gallery__heading {
+  padding-bottom: 1rem;
 }
 .photo-gallery__image {
   width: 100%;
   margin-bottom: 1rem;
 }
 @media (min-width: 768px) {
-  .photo-gallery .photo-gallery__heading {
-    padding-left: 3rem;
+  .photo-gallery .photo-gallery__container {
+    padding: 3rem;
   }
   .photo-gallery .photo-gallery__images-container {
     display: flex;
@@ -343,14 +336,11 @@
   }
   .photo-gallery .photo-gallery__image {
     width: 30%;
-    margin: 0.6rem;
+    margin: 0.65rem;
   }
 }
 @media (min-width: 1280px) {
-  .photo-gallery .photo-gallery__heading {
-    padding-left: 8rem;
-  }
-  .photo-gallery .photo-gallery__image {
-    width: 26%;
+  .photo-gallery .photo-gallery__container {
+    padding: 2rem 10rem 1rem 10rem;
   }
 }/*# sourceMappingURL=bio.css.map */
