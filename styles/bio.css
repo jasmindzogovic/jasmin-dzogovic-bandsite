@@ -294,8 +294,8 @@
   }
 }
 @media (min-width: 1280px) {
-  .main__container .main__container {
-    padding: 2.25rem 5rem;
+  .main__container {
+    padding: 2.25rem 10rem;
   }
   .main__container .main__container-paragraph {
     font-size: 1rem;
