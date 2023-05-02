@@ -150,4 +150,61 @@
     }
 }
 
+//styling for comments section
+
+.comments__section {
+    padding: 1rem;
+}
+
+#form {
+    display: flex;
+}
+
+#formImage {
+    object-fit: cover;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+
+#formName {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    background-color: #FAFAFA;
+    border: 1px solid #E1E1E1;
+    border-radius: 0.2rem;
+}
+
+#comments {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    background-color: #FAFAFA;
+    border: 1px solid #E1E1E1;
+    height: 5rem;
+    border-radius: 0.2rem;
+    resize: none;
+}
+
+.form {
+    &__container {
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    border: 0px;
+    }
+    &-description {
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+    color: #AFAFAF;   
+    }
+    &__button {
+    padding: 0.7rem;
+    background-color: #323232;
+    border-radius: 0.2rem;
+    color: white;
+    border: 0;
+    }
+}
 
