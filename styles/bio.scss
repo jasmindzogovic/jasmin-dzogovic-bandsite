@@ -203,6 +203,7 @@
     border: 0px;
     }
     &-description {
+    font-weight: map-get($map: $font-weights, $key: demi);
     font-size: 0.7rem;
     margin-bottom: .25rem;
     color: #AFAFAF;   

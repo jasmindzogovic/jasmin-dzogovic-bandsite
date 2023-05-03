@@ -388,6 +388,7 @@
   border: 0px;
 }
 .form-description {
+  font-weight: 600;
   font-size: 0.7rem;
   margin-bottom: 0.25rem;
   color: #AFAFAF;
